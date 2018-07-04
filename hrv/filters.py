@@ -1,5 +1,7 @@
 import numpy as np
 
+from hrv.rri import RRi
+
 
 def quotient(rri):
     rri = np.array(rri)
